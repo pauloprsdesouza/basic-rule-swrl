@@ -1,22 +1,29 @@
-# SWRL rules
-Basic tutorial to generate inference in OWL using SWRL rules
+# Basic Rule Swrl
 
-# Introduction
-<p>
-  This tutorial was developed using the language JAVA and the Framework <img src="https://jena.apache.org/images/jena-logo/jena-logo-jumbotron.png" width="30"/> <a href="https://jena.apache.org/">[Apache Jena]</a>. Aims to auxiliate who users  
-<p>
-  
-# Dependencies
-<pre>Apache Jena version 3.0</pre>
-### Maven
-  ```xml
-<dependency>
-    <groupId>org.apache.jena</groupId>
-    <artifactId>apache-jena-libs</artifactId>
-    <type>pom</type>
-    <version>3.0</version>
-</dependency>
-```
-# Examples
-* First case
-  * [<b>S1</b>: (?x <b>eg:hasSon</b> ?y), (?y <b>eg:hasSon</b> ?z), (?w <b>eg:hasSpouse</b> ?y) -> (?z <b>eg:hasGrandFather</b> ?x), (?w <b>eg:hasSon</b> ?z)]
+[![License](https://img.shields.io/github/license/pauloprsdesouza/basic-rule-swrl)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/pauloprsdesouza/basic-rule-swrl)](https://github.com/pauloprsdesouza/basic-rule-swrl/commits)
+[![Top Language](https://img.shields.io/github/languages/top/pauloprsdesouza/basic-rule-swrl)](https://github.com/pauloprsdesouza/basic-rule-swrl)
+
+## Overview
+Basic example: how to uses SWRL rules to generate inference in the OWL
+
+## Tech Stack
+- Java
+
+## Repository Structure
+- `src/` - main source code
+
+## Quick Start
+1. Install a compatible .NET SDK.
+2. Restore dependencies from the solution/project.
+3. Build and run locally.
+
+## Validation
+- Run local build and tests where available.
+- Validate main workflows/endpoints before opening pull requests.
+
+## Contributing
+See `CONTRIBUTING.md` for contribution and PR guidelines.
+
+## Status
+Actively maintained by Paulo Roberto de Souza.
